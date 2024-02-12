@@ -8,7 +8,7 @@ public class Main
 	public void helloProcessing()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new MultiSensoryFoLoopExperience());
+        processing.core.PApplet.runSketch( a, new Arrays());
     }
 
 	public void doDogStuff()
@@ -27,7 +27,6 @@ public class Main
 		// Put your code here
 		System.out.println("cats are from space");
 	}
-	
 	public static void main(String[] args)
 	{
 		System.out.println("Hello world");
@@ -61,8 +60,9 @@ public class Main
 		System.out.println("C: " + c.getName());
 		
 
-
 		m.helloProcessing();
+
+		// m.Arrays();
 	}
 	
 }

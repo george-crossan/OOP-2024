@@ -39,6 +39,8 @@ public class LifeBoard {
 
     }
 
+    // use accessor methods so you can do bounds checking
+
     public void setCell(int row, int col, boolean value){
         if(row > 0 && col > 0 && row < rows && col < cols){
             board[row][col] = value;
